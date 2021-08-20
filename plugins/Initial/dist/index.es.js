@@ -1,6 +1,6 @@
 import { Downgraded } from '@hookstate/core';
-import isEqual from 'lodash.isequal';
-import cloneDeep from 'lodash.clonedeep';
+import { isEqual } from 'lodash';
+import { cloneDeep } from 'lodash';
 
 var InitialPluginInstance = /** @class */ (function () {
     function InitialPluginInstance(initialValue) {
